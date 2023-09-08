@@ -1,0 +1,73 @@
+:root {
+    --p-color: blueviolet;
+    --s-color: Dimgrey;
+    --t-color: Gainsboro;
+}
+
+body {
+    background-color: var(--p-color);
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+}
+
+.tittle {
+    background: var(--t-color);
+    color: var(--s-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.FormInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.FormInput:focus {
+    border: 3px solid var(--p-color);
+    outline: none;
+}
+
+.FormSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.FormSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--p-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
